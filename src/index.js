@@ -14,6 +14,7 @@ import BackDialog from "./ch04/BackDialog";
 import Clock from "./ch04/Clock";
 import CommentList from "./ch05/CommentList";
 import NotificationList from "./ch06/NotificationList";
+import Accommodate from "./ch07/Accomodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,7 +28,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate />
   </React.StrictMode>
 );
 
