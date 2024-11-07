@@ -25,8 +25,12 @@ import InputTest from "./ch08/inputTest";
 import ConfirmButton from "./ch08/ConfirmButton";
 import ConfirmButton2 from "./ch08/ConfirmButton";
 import ConfirmButton3 from "./ch08/ConfirmButton";
-import Greeting from "./ch09/Greeting";
+// import Greeting from "./ch09/Greeting";
 import LoginControll from "./ch09/LoginControll";
+import Greeting from "./test/Greeting"
+import MailBox from "./ch09/MailBox";
+import LoginControll2 from "./ch09/LoginControll2";
+import LandingPage from "./ch09/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -40,7 +44,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 root.render(
   <React.StrictMode>
-    <LoginControll/>
+    <LandingPage/>
   </React.StrictMode>
 );
 
