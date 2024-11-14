@@ -34,6 +34,7 @@ import LandingPage from "./ch09/LandingPage";
 import AppNumberList from "./ch10/AppNumberList";
 import StudentAttendance from "./ch10/StudentAttendance";
 import AppStudentAttendance from "./ch10/AppStudentAttendance";
+import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -47,7 +48,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 root.render(
   <React.StrictMode>
-    <StudentAttendance/>
+    <AttendanceCard/>
   </React.StrictMode>
 );
 
