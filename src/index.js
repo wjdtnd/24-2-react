@@ -35,6 +35,10 @@ import AppNumberList from "./ch10/AppNumberList";
 import StudentAttendance from "./ch10/StudentAttendance";
 import AppStudentAttendance from "./ch10/AppStudentAttendance";
 import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
+import NameForm from "./ch11/NameForm";
+import RequestForm from "./ch11/RequestForm";
+import NameRequest from "./ch11/NameRequest";
+import SignUp from "./ch11/SignUp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -48,7 +52,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 root.render(
   <React.StrictMode>
-    <AttendanceCard/>
+    <SignUp/>
   </React.StrictMode>
 );
 
