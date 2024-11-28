@@ -39,6 +39,12 @@ import NameForm from "./ch11/NameForm";
 import RequestForm from "./ch11/RequestForm";
 import NameRequest from "./ch11/NameRequest";
 import SignUp from "./ch11/SignUp";
+import Calculator from "./ch12/Calculator";
+import Calculator2 from "./ch12/Calculator2";
+import Calculator3 from "./ch12/Calculator3";
+import TemperatureInput2 from "./ch12/TemperatureInput2";
+import DistanceInput from "./ch12/distance/DistanceInput";
+import DistanceConverter from "./ch12/distance/DistanceConverter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -52,7 +58,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 root.render(
   <React.StrictMode>
-    <SignUp/>
+    <DistanceConverter/>
   </React.StrictMode>
 );
 
