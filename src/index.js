@@ -45,6 +45,9 @@ import Calculator3 from "./ch12/Calculator3";
 import TemperatureInput2 from "./ch12/TemperatureInput2";
 import DistanceInput from "./ch12/distance/DistanceInput";
 import DistanceConverter from "./ch12/distance/DistanceConverter";
+import ProfileCard from "./ch13/ProfileCard";
+import MainPage from "./ch13/ex1/MainPage";
+import AirApp from "./ch13/airbnbHome/AirApp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -58,7 +61,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 root.render(
   <React.StrictMode>
-    <DistanceConverter/>
+    <AirApp/>
   </React.StrictMode>
 );
 
