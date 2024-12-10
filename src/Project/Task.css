@@ -1,0 +1,106 @@
+.App {
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    padding-top: 20px;  /* 상단 여백 추가 */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #074812;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #484848;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #074812;
+}
+
+.hero p {
+    font-size: 24px;
+    color: black;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+.card p {
+    padding-left:10px ;
+}
+
+
+.clock{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: #f0f2f5;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.input-box {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+}
+
+body, html {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
