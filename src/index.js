@@ -48,6 +48,8 @@ import DistanceConverter from "./ch12/distance/DistanceConverter";
 import ProfileCard from "./ch13/ProfileCard";
 import MainPage from "./ch13/ex1/MainPage";
 import AirApp from "./ch13/airbnbHome/AirApp";
+import Task from "./Project/components/Task";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -59,10 +61,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //     );
 //     },1000
 // )
+
 root.render(
-  <React.StrictMode>
-    <AirApp/>
-  </React.StrictMode>
+    <React.StrictMode>
+        <Task />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

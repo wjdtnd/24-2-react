@@ -3,7 +3,7 @@
 }
 
 .header {
-    padding-top: 20px;  /* 상단 여백 추가 */
+    padding-top: 20px;
 }
 
 .header {
@@ -17,7 +17,7 @@
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #074812;
+    color: #253B1A;
 }
 
 nav a {
@@ -35,12 +35,12 @@ nav a {
 
 .hero h1 {
     font-size: 48px;
-    color: #074812;
+    color: #253B1A;
 }
 
 .hero p {
     font-size: 24px;
-    color: black;
+    color: #132A13;
 }
 
 .card-container {
@@ -55,11 +55,12 @@ nav a {
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
     width: 100%;
+    height: auto;
 }
 
 .card h3 {
@@ -93,10 +94,28 @@ legend {
     font-size: 1.2em;
 }
 
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px 0;
+
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
 .input-box {
-    width: 150px;
-    height: 30px;
-    padding: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
 }
 
 body, html {
@@ -104,3 +123,87 @@ body, html {
     padding: 20px;
     box-sizing: border-box;
 }
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.tabs {
+    width: 200px;
+    background-color: #f8f8f8;
+    border-right: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab {
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+select {
+    margin-top: 10px;
+    padding: 10px;
+    width: 210px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.tab.active {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.tab-content {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.existing-content {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.App-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f8f8f8;
+    border-right: 2px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
